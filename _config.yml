@@ -17,8 +17,10 @@ author:
   email: dcassioli@gmail.com
   uri: https://dcassioli.github.io
   bio: Software engineer, tabletop enthusiast, cat person and monster beer drinker
-  twitter:
-  github:
+  github: dcassioli
+  facebook: dcassioli
+  twitter: DavideCassioli
+  linkedin: davide-cassioli
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts

@@ -1,5 +1,7 @@
 # .gitignore for jekyllized projects
 
+id_rsa*
+
 # Ignore hidden folders
 # This takes care of .tmp, .sass-cache, and many others
 .*/
@@ -67,3 +69,6 @@ dist
 # hide the AWS and Rsync credentials file
 aws-credentials.json
 rsync-credentials.json
+
+# Ruby
+Gemfile.lock
