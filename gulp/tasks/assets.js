@@ -27,7 +27,7 @@ gulp.task('scripts', () =>
   gulp.src([
     'src/assets/javascript/vendor.js',
     'src/assets/javascript/main.js'
-  ])
+  ], {allowEmpty: true})
     .pipe(newer('.tmp/assets/javascript/index.js', {dest: '.tmp/assets/javascript', ext: '.js'}))
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(babel({
@@ -58,7 +58,7 @@ gulp.task('scripts', () =>
 // 'gulp styles --prod' -- creates a CSS file from your SASS, adds prefixes and
 // then minwhenies, gzips and cache busts it. Does not create a Sourcemap
 gulp.task('styles', () =>
-  gulp.src('src/assets/scss/style.scss')
+  gulp.src('src/assets/scss/style.scss', {allowEmpty: true})
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(sass({
       precision: 10

@@ -45,10 +45,12 @@ redcarpet:
 highlighter: rouge
 
 # Extending Jekyll
-gems:
+plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
+
+theme: jekyll-theme-hacker
