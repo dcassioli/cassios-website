@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 date: 2014-03-01
 title: Example content
 categories: jekyll example
@@ -7,6 +7,9 @@ categories: jekyll example
 
 <div class="message"> Howdy! This is an example blog post that shows several
 types of HTML content supported in this theme. </div>
+
+<strong>EDIT by Cassio: I'm gonna leave this auto-generated content here 
+as reference.</strong>
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>,
 nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia
