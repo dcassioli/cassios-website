@@ -15,6 +15,7 @@ gulp.task('site:tmp', () =>
 // 'gulp jekyll' -- builds your site with development settings
 // 'gulp jekyll --prod' -- builds your site with production settings
 gulp.task('site', done => {
+  shell.exec('bundle update');
   if (!argv.prod) {
     shell.exec('bundle exec jekyll build');
     done();
