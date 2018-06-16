@@ -2,9 +2,7 @@ version: '3.2'
 services:
   cassios-website:
     build: .
-    ports:
-      - "3000:3000"
-      - "3001:3001"
+    command: build --prod
     volumes:
-      - .:/usr/app/
+      - .:/usr/app
       - /usr/app/node_modules/

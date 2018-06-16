@@ -2,7 +2,7 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: cassios-website
 description: My first website using Yeoman
-url: https://dcassioli.github.io
+url: https://dcassioli.github.io/cassios-website
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
