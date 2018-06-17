@@ -87,6 +87,9 @@ RUN apk del \
     wget \
   && rm -rf /var/cache/apk/*
 
+# Force the use of https: instead of git:
+RUN git config --global url."https://".insteadOf git://
+
 RUN npm install -g gulp-cli
 
 WORKDIR /usr/app
