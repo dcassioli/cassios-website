@@ -7,6 +7,7 @@ const ghPages = require('gh-pages');
 gulp.task('upload', (done) => {
   ghPages.publish(path.join(__dirname + '/../../', 'dist'), {
     dotfiles: true,
+    repo: 'git@github.com:dcassioli/cassios-website.git'
     // branch: "master"
 	},
 	done);
