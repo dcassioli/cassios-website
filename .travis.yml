@@ -11,7 +11,7 @@ jobs:
   include:
     - stage: build
       script:
-        - echo "$SSH_PRIVATE_KEY" > "$SSH_KEY_FILENAME"
+        - ./prepare-key.sh
         - chmod 600 "$SSH_KEY_FILENAME"
         - docker-compose -f docker-compose-build-prod.yaml up --build --exit-code-from cassios-website
         - ./deploy.sh
