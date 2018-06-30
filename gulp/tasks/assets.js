@@ -97,7 +97,12 @@ gulp.task('serve', (done) => {
   browserSync.init({
     // tunnel: true,
     // open: false,
-    server: ['.tmp', 'dist']
+    server: {
+      baseDir: 'dist',
+      routes: {
+        '/cassios-website': 'dist'
+      }
+    }
   });
   done();
 
