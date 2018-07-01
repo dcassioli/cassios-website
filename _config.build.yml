@@ -2,7 +2,7 @@
 # Overrides these options in _config.yml
 
 # Prepend the base URL to posts on the github pages server
-baseurl: cassios-website
+baseurl: /cassios-website
 # Hides your drafts and future posts
 future: false
 show_drafts: false
