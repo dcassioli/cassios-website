@@ -1,5 +1,7 @@
 # cassios-website
 
+[![Build Status](https://travis-ci.org/dcassioli/cassios-website.svg)](https://travis-ci.org/dcassioli/cassios-website)
+
 > My first website using Yeoman
 
 ## To get started
