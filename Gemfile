@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 gem 'jekyll', '3.7.3'
-gem 'redcarpet', '3.4.0'
+gem 'redcarpet', '3.5.0'
 
 # jekyll plugins
 gem 'jekyll-feed', '0.10.0'
